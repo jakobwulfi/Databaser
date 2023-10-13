@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Databaser.iml" filepath="$PROJECT_DIR$/Databaser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Obligatorisk Opgave/Obligatorisk Opgave.iml" filepath="$PROJECT_DIR$/Obligatorisk Opgave/Obligatorisk Opgave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operativ 01/Operativ 01.iml" filepath="$PROJECT_DIR$/Operativ 01/Operativ 01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operativ 02/Operativ 02.iml" filepath="$PROJECT_DIR$/Operativ 02/Operativ 02.iml" />
     </modules>
   </component>
 </project>
