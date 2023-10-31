@@ -12,14 +12,13 @@ public class BankAccountTraad extends Thread {
 		int i = 0;
 		while (i < 4) {
 			try {
-				this.sleep(1000);
+				this.sleep(5000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			ba.setBalance(100, "c");
+			ba.credit(100);
 			i++;
 		}
-		System.out.println("Balancen er: " + ba.getBalance());
 	}
 
 }

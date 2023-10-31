@@ -16,10 +16,9 @@ public class BankAccountTraad2 extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			ba.setBalance(100, "d");
+			ba.debit(100);
 			i++;
 		}
-		System.out.println("Balancen er: " + ba.getBalance());
 	}
 
 }

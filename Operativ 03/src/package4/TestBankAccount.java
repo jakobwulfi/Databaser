@@ -9,5 +9,12 @@ public class TestBankAccount {
 			
 			bat1.start();
 			bat2.start();
-		}
+			try {
+				bat1.join();
+				bat2.join();
+			} catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+		System.out.println("Færdig, balance = " + ba.getBalance());
+    }
 }
