@@ -31,7 +31,6 @@ public class Faelles {
                 k = k + b;
             }
         }
-
     }
     public int getGlobal() {
         return global;
